@@ -1,5 +1,5 @@
 {
-  "name": "@eza/sdk",
+  "name": "@ezacloud/sdk",
   "version": "0.2.0",
   "description": "Eza Cloud for Node.js: transactional email, PayEdge M-Pesa STK push and signed webhooks.",
   "license": "MIT",
@@ -19,5 +19,5 @@
   },
   "keywords": ["email", "smtp", "transactional email", "mpesa", "m-pesa", "daraja", "stk push", "kenya", "eza"],
   "homepage": "https://eza.co.ke/docs",
-  "repository": { "type": "git", "url": "https://github.com/johbcodes/eza", "directory": "sdks/node" }
+  "repository": { "type": "git", "url": "https://github.com/ezacloud/eza", "directory": "sdks/node" }
 }

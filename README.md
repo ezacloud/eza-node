@@ -4,7 +4,7 @@ Transactional email, PayEdge M-Pesa STK pushes and signed webhooks. No
 dependencies; Node.js 18 or later.
 
 ```sh
-npm install @eza/sdk
+npm install @ezacloud/sdk
 ```
 
 ## Email
@@ -13,7 +13,7 @@ On Eza, every app has `EZA_EMAIL_KEY` and `EZA_EMAIL_URL` already, so this
 is all it takes:
 
 ```js
-import { Eza } from "@eza/sdk";
+import { Eza } from "@ezacloud/sdk";
 
 const eza = new Eza();
 const { id } = await eza.emails.send({
@@ -49,7 +49,7 @@ const tx = await eza.payedge.stkPush({
 Verify the raw body, not a parsed object:
 
 ```js
-import { verifyWebhook, SignatureError } from "@eza/sdk";
+import { verifyWebhook, SignatureError } from "@ezacloud/sdk";
 
 app.post("/hooks/eza", express.raw({ type: "application/json" }), async (req, res) => {
   try {
