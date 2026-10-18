@@ -19,5 +19,5 @@
   },
   "keywords": ["email", "smtp", "transactional email", "mpesa", "m-pesa", "daraja", "stk push", "kenya", "eza"],
   "homepage": "https://eza.co.ke/docs",
-  "repository": { "type": "git", "url": "git+https://github.com/ezacloud/eza.git", "directory": "sdks/node" }
+  "repository": { "type": "git", "url": "git+https://github.com/ezacloud/eza-node.git" }
 }
